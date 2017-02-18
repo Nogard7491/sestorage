@@ -1,5 +1,5 @@
 /*!
- * sestorage library v1.0.0
+ * sestorage library v1.0.1
  * https://github.com/Nogard7491/sestorage
  */
 (function (factory) {
@@ -43,7 +43,7 @@
      * @param key ключ
      * @return {boolean} флаг сущестования переменной
      */
-    sestorage.prototype.exists = function (key) {
+    sestorage.prototype.has = function (key) {
 
         return (this.get(key) === null) ? false : true;
     };

@@ -53,7 +53,10 @@ session cookies.
 
 ```javascript
     // проверка на существование элемента в локальном хранилище текущей сессии
-    sestorage.exists("variable_key");
+    sestorage.has("variable_key");
+
+    // устаревший метод
+    // sestorage.exists("variable_key");
 ```
 
 ```javascript
